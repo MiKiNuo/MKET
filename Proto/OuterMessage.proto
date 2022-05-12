@@ -1,0 +1,241 @@
+syntax = "proto3";
+package ET;
+
+//ResponseType M2C_TestResponse
+message C2M_TestRequest // IActorLocationRequest
+{
+	int32 RpcId = 0;
+	string request = 1;
+}
+
+message M2C_TestResponse // IActorLocationResponse
+{
+	int32 RpcId = 0;
+	int32 Error = 1;
+	string Message = 2;
+	string response = 3;
+}
+
+//ResponseType Actor_TransferResponse
+message Actor_TransferRequest // IActorLocationRequest
+{
+	int32 RpcId = 0;
+	int32 MapIndex = 1;
+}
+
+message Actor_TransferResponse // IActorLocationResponse
+{
+	int32 RpcId = 0;
+	int32 Error = 1;
+	string Message = 2;
+}
+
+//ResponseType G2C_EnterMap
+message C2G_EnterMap // IRequest
+{
+	int32 RpcId = 0;
+}
+
+message G2C_EnterMap // IResponse
+{
+	int32 RpcId = 0;
+	int32 Error = 1;
+	string Message = 2;
+	// 自己unitId
+	int64 MyId = 3;
+}
+
+message MoveInfo
+{
+	repeated float X = 0;
+	repeated float Y = 1;
+	repeated float Z = 2;
+
+	float A = 3;
+	float B = 4;
+	float C = 5;
+	float W = 6;
+	int32 TurnSpeed = 7;
+}
+
+message UnitInfo
+{
+	int64 UnitId = 0;
+	int32 ConfigId = 1;
+	int32 Type = 2;
+	float X = 3;
+	float Y = 4;
+	float Z = 5;
+	float ForwardX = 6;
+	float ForwardY = 7;
+	float ForwardZ = 8;
+	repeated int32 Ks = 9;
+	repeated int64 Vs = 10;
+	MoveInfo MoveInfo = 11;
+}
+
+message M2C_CreateUnits // IActorMessage
+{
+	repeated UnitInfo Units = 0;
+}
+
+message M2C_CreateMyUnit // IActorMessage
+{
+	UnitInfo Unit = 0;
+}
+
+message M2C_StartSceneChange // IActorMessage
+{
+	int64 SceneInstanceId = 0;
+	string SceneName = 1;	
+}
+
+message M2C_RemoveUnits // IActorMessage
+{
+	repeated int64 Units = 0;
+}
+
+message C2M_PathfindingResult // IActorLocationMessage
+{
+	int32 RpcId = 0;
+
+	float X = 1;
+	float Y = 2;
+	float Z = 3;
+}
+
+message C2M_Stop // IActorLocationMessage
+{
+	int32 RpcId = 0;
+}
+
+message M2C_PathfindingResult // IActorMessage
+{
+	int64 Id = 0;
+
+	float X = 1;
+	float Y = 2;
+	float Z = 3;
+
+	repeated float Xs = 4;
+	repeated float Ys = 5;
+	repeated float Zs = 6;
+}
+
+message M2C_Stop // IActorMessage
+{
+	int32 Error = 0;
+
+	int64 Id = 1;
+	float X = 2;
+	float Y = 3;
+	float Z = 4;
+
+	float A = 5;
+	float B = 6;
+	float C = 7;
+	float W = 8;
+}
+
+//ResponseType G2C_Ping
+message C2G_Ping // IRequest
+{
+	int32 RpcId = 0;
+}
+
+message G2C_Ping // IResponse
+{
+	int32 RpcId = 0;
+	int32 Error = 1;
+	string Message = 2;
+
+	int64 Time = 3;
+}
+
+
+message G2C_Test // IMessage
+{
+}
+
+//ResponseType M2C_Reload
+message C2M_Reload // IRequest
+{
+	int32 RpcId = 0;
+	string Account = 1;
+	string Password = 2;
+}
+
+message M2C_Reload // IResponse
+{
+	int32 RpcId = 0;
+	int32 Error = 1;
+	string Message = 2;
+}
+
+//ResponseType R2C_Login
+message C2R_Login // IRequest
+{
+	int32 RpcId = 0;
+	string  Account = 1;  // 帐号
+	string  Password = 2;  // 密码
+}
+
+message R2C_Login // IResponse
+{
+	int32 RpcId = 0;
+	int32 Error = 1;
+	string Message = 2;
+	string Address = 3;
+	int64 Key = 4;
+	int64 GateId = 5;
+}
+
+//ResponseType G2C_LoginGate
+message C2G_LoginGate // IRequest
+{
+	int32 RpcId = 0;
+	int64 Key = 1;  // 帐号
+	int64 GateId = 2;
+}
+
+message G2C_LoginGate // IResponse
+{
+	int32 RpcId = 0;
+	int32 Error = 1;
+	string Message = 2;
+	int64 PlayerId = 3;
+}
+
+message G2C_TestHotfixMessage // IMessage
+{
+	string Info = 0;
+}
+
+//ResponseType M2C_TestRobotCase
+message C2M_TestRobotCase // IActorLocationRequest
+{
+	int32 RpcId = 0;
+	int32 N = 1;
+}
+
+message M2C_TestRobotCase // IActorLocationResponse
+{
+	int32 RpcId = 0;
+	int32 Error = 1;
+	string Message = 2;
+	int32 N = 3;
+}
+
+//ResponseType M2C_TransferMap
+message C2M_TransferMap // IActorLocationRequest
+{
+	int32 RpcId = 0;
+}
+
+message M2C_TransferMap // IActorLocationResponse
+{
+	int32 RpcId = 0;
+	int32 Error = 1;
+	string Message = 2;
+}
+ 

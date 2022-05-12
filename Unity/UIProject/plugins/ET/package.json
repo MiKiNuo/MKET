@@ -1,0 +1,11 @@
+{
+  "name": "ET6",
+  "displayName": "",
+  "description": "",
+  "version": "1.0",
+  "author": {
+    "name": "MiKiNuo"
+  },
+  "icon": "",
+  "main": "main.js"
+}

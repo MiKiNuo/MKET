@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <text id="n2_zkmd" name="NameInput" xy="567,162" size="195,19" group="n6_zkmd" fontSize="12" autoSize="none" text="" input="true"/>
+    <text id="n4_zkmd" name="NameText" xy="517,160" size="40,25" group="n6_zkmd" fontSize="12" autoSize="none" text="姓名：&#xA;"/>
+    <group id="n6_zkmd" name="NameGroup" xy="517,160" size="245,25" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+    <text id="n3_zkmd" name="PasswordInput" xy="573,226" size="186,19" group="n7_zkmd" fontSize="12" autoSize="none" text="" input="true"/>
+    <text id="n5_zkmd" name="PasswordText" xy="520,224" size="40,23" group="n7_zkmd" fontSize="12" autoSize="none" text="密码：&#xA;"/>
+    <group id="n7_zkmd" name="PasswordGroup" xy="520,224" size="239,23" advanced="true">
+      <relation target="" sidePair="center-center"/>
+      <relation target="n6_zkmd" sidePair="top-top"/>
+    </group>
+    <component id="n8_zkmd" name="LoginBtn" src="zkmd9" fileName="LoginPanel/LoginBtn.xml" xy="519,276">
+      <relation target="n7_zkmd" sidePair="left-left,top-top"/>
+      <Button title="登录"/>
+    </component>
+    <component id="n9_zkmd" name="RegisterBtn" src="zkmda" fileName="LoginPanel/RegisterBtn.xml" xy="695,277">
+      <relation target="n7_zkmd" sidePair="right-right,top-top"/>
+      <Button title="注册"/>
+    </component>
+  </displayList>
+</component>

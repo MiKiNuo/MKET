@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <Optimize>true</Optimize>
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="..\..\Unity\Assets\ThirdParty\LubanLib\BeanBase.cs">
+        <Link>BeanBase.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Unity\Assets\ThirdParty\LubanLib\ByteBuf.cs">
+        <Link>ByteBuf.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Unity\Assets\ThirdParty\LubanLib\ITypeId.cs">
+        <Link>ITypeId.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Unity\Assets\ThirdParty\LubanLib\SimpleJSON\SimpleJSON.cs">
+        <Link>SimpleJSON.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Unity\Assets\ThirdParty\LubanLib\SimpleJSON\SimpleJSONBinary.cs">
+        <Link>SimpleJSONBinary.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Unity\Assets\ThirdParty\LubanLib\SimpleJSON\SimpleJSONDotNetTypes.cs">
+        <Link>SimpleJSONDotNetTypes.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Unity\Assets\ThirdParty\LubanLib\SimpleJSON\SimpleJSONUnity.cs">
+        <Link>SimpleJSONUnity.cs</Link>
+      </Compile>
+      <Compile Include="..\..\Unity\Assets\ThirdParty\LubanLib\StringUtil.cs">
+        <Link>StringUtil.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+</Project>
