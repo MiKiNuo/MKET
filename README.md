@@ -22,14 +22,14 @@ ET6 + MessagePack-CSharp + YooAsset + Fairygui + Luban + Huatuo
 
 三、引用库
 
-1、[egametang/ET: Unity3D Client And C# Server Framework (github.com)](https://github.com/egametang/ET)
+1、[ET](https://github.com/egametang/ET)
 
-2、[focus-creative-games/luban: 你的最佳游戏配置解决方案 {excel, csv, xls, xlsx, json, bson, xml, yaml, lua, unity scriptableobject} => {json, bson, xml, lua, yaml, protobuf(pb), msgpack, flatbuffers, erlang, custom template} data + {c++, java, c#, go(golang), lua, javascript(js), typescript(ts), erlang, rust, protobuf schema, flatbuffers schema, custom template} code。 不仅仅是导表工具。支持unity , ue4, tolua, xlua, slua, ilruntime, puerts等热更新插件；强大的数据校验能力；完善的本地化机制。a powerful game config export tool and code generator that supports for i18n and l10n. (github.com)](https://github.com/focus-creative-games/luban)
+2、[luban](https://github.com/focus-creative-games/luban)
 
-3、[tuyoogame/YooAsset: unity3d resources management system (github.com)](https://github.com/tuyoogame/YooAsset)
+3、[YooAsset](https://github.com/tuyoogame/YooAsset)
 
-4、[fairygui/FairyGUI-unity: A flexible UI framework for Unity (github.com)](https://github.com/fairygui/FairyGUI-unity)
+4、[Fairygui](https://github.com/fairygui/FairyGUI-unity)
 
-5、[CatImmortal/CatJson: 为Unity开发者量身打造的功能强大的高性能Json库，内置ILRuntime支持 (github.com)](https://github.com/CatImmortal/CatJson)
+5、[CatJson](https://github.com/CatImmortal/CatJson)
 
-6、[focus-creative-games/huatuo: huatuo是一个特性完整、零成本、高性能、低内存的近乎完美的Unity全平台原生c#热更方案。 Huatuo is a fully featured, zero-cost, high-performance, low-memory solution for Unity's all-platform native c# hotfix (github.com)](https://github.com/focus-creative-games/huatuo)
+6、[Huatuo)](https://github.com/focus-creative-games/huatuo)
