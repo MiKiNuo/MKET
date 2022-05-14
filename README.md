@@ -12,9 +12,9 @@ ET6 + MessagePack-CSharp + YooAsset + Fairygui + Luban + Huatuo
 
 二、注意事项
 
-1、MessagePack-CSharp协议延用ET的proto文件进行定义，新增协议按照UWA ET教程进行新增
+1、MessagePack-CSharp协议延用ET的proto文件进行定义，新增协议按照UWA ET教程进行新增[UWA 学堂 (uwa4d.com)](https://edu.uwa4d.com/course-intro/1/375?purchased=true)
 
-2、Excel导出改用Luban进行导出，相关教程请前往[快速上手 | Luban使用文档 (focus-creative-games.github.io)](https://focus-creative-games.github.io/lubandoc/start_up.html)
+2、Excel导出改用Luban进行导出，相关教程请前往[ Luban使用文档 ](https://focus-creative-games.github.io/lubandoc/start_up.html)
 
 3、如果要还原protobuf-net，需要把Tool工程相关的注释代码打开，然后服务器nuget进行添加，客户端ThirdParty文件夹拷贝ET仓库下ThirdParty文件夹的protobuf-net，MessagePackHelper.cs代码进行注释，ProtobufHelper.cs代码注释打开，Proto文件夹下的InnerMessage.proto、MongoMessage.proto、OuterMessage.proto还原ET仓库下定Proto文件夹，同理Excel也是一样。
 
@@ -32,4 +32,4 @@ ET6 + MessagePack-CSharp + YooAsset + Fairygui + Luban + Huatuo
 
 5、[CatJson](https://github.com/CatImmortal/CatJson)
 
-6、[Huatuo)](https://github.com/focus-creative-games/huatuo)
+6、[Huatuo](https://github.com/focus-creative-games/huatuo)
