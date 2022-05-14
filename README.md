@@ -24,18 +24,16 @@ ET6 + MessagePack-CSharp + YooAsset + Fairygui + Luban + Huatuo
 
 三、引用库
 
-1、[ET](https://github.com/egametang/ET)Unity3D Client And C# Server Framework
+1、[ET](https://github.com/egametang/ET) Unity3D Client And C# Server Framework
 
-2、[Luban](https://github.com/focus-creative-games/luban)你的最佳游戏配置解决方案
+2、[Luban](https://github.com/focus-creative-games/luban) 你的最佳游戏配置解决方案
 
-3、[YooAsset](https://github.com/tuyoogame/YooAsset)unity3d resources management system
+3、[YooAsset](https://github.com/tuyoogame/YooAsset) unity3d resources management system
 
-4、[Fairygui](https://github.com/fairygui/FairyGUI-unity)A flexible UI framework for Unity
+4、[Fairygui](https://github.com/fairygui/FairyGUI-unity) A flexible UI framework for Unity
 
-5、[CatJson](https://github.com/CatImmortal/CatJson)为Unity开发者量身打造的功能强大的高性能Json库，内置ILRuntime支持
+5、[CatJson](https://github.com/CatImmortal/CatJson) 为Unity开发者量身打造的功能强大的高性能Json库，内置ILRuntime支持
 
-6、[Huatuo](https://github.com/focus-creative-games/huatuo)
-
-huatuo是一个特性完整、零成本、高性能、低内存的近乎完美的Unity全平台原生c#热更方案。
+6、[Huatuo](https://github.com/focus-creative-games/huatuo) huatuo是一个特性完整、零成本、高性能、低内存的近乎完美的Unity全平台原生c#热更方案。
 
 7、[ET-FUI](https://github.com/sosloop/ET-FUI) ET6 + GameFrameWork(UGFExtensions扩展) + FairyGui + LuBan 集 大家之作 粘贴为 一体
