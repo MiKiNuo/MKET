@@ -20,16 +20,22 @@ ET6 + MessagePack-CSharp + YooAsset + Fairygui + Luban + Huatuo
 
 4、如果需要还原ILRuntime,需要ThirdParty文件夹还原ET仓库的ILRuntime，项目init.cs代码也是对应的修改
 
+5、在 Unity/UIProject下，生成代码插件 为 ts编写 ，在UI工程 plugins目录，生成代码 勾选 生成mono代码，不勾选生成 hoftix 代码
+
 三、引用库
 
-1、[ET](https://github.com/egametang/ET)
+1、[ET](https://github.com/egametang/ET)Unity3D Client And C# Server Framework
 
-2、[luban](https://github.com/focus-creative-games/luban)
+2、[Luban](https://github.com/focus-creative-games/luban)你的最佳游戏配置解决方案
 
-3、[YooAsset](https://github.com/tuyoogame/YooAsset)
+3、[YooAsset](https://github.com/tuyoogame/YooAsset)unity3d resources management system
 
-4、[Fairygui](https://github.com/fairygui/FairyGUI-unity)
+4、[Fairygui](https://github.com/fairygui/FairyGUI-unity)A flexible UI framework for Unity
 
-5、[CatJson](https://github.com/CatImmortal/CatJson)
+5、[CatJson](https://github.com/CatImmortal/CatJson)为Unity开发者量身打造的功能强大的高性能Json库，内置ILRuntime支持
 
 6、[Huatuo](https://github.com/focus-creative-games/huatuo)
+
+huatuo是一个特性完整、零成本、高性能、低内存的近乎完美的Unity全平台原生c#热更方案。
+
+7、[ET-FUI](https://github.com/sosloop/ET-FUI) ET6 + GameFrameWork(UGFExtensions扩展) + FairyGui + LuBan 集 大家之作 粘贴为 一体
