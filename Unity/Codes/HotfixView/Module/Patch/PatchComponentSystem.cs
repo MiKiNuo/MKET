@@ -114,7 +114,7 @@ namespace ET
             var downloader = self.Downloader;
 
             // 注册下载回调
-            downloader.OnDownloadFileFailedCallback = OnDownloadFileFailed;
+            downloader.OnDownloadErrorCallback = OnDownloadFileFailed;
             downloader.OnDownloadProgressCallback = OnDownloadProgress;
             downloader.BeginDownload();
             await downloader.Task;
@@ -136,9 +136,9 @@ namespace ET
         }
 
 
-        private static void OnDownloadFileFailed(string info)
+        private static void OnDownloadFileFailed(string fileName, string error)
         {
-            Log.Debug($"下载文件失败，错误信息={info}");
+            Log.Debug($"下载文件失败，错误信息={error}");
         }
         
         

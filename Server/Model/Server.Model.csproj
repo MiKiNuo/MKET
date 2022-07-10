@@ -119,6 +119,6 @@
     <ProjectReference Include="..\..\Tools\Analyzer\Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="MessagePack" Version="2.4.14-alpha" />
+    <PackageReference Include="MessagePack" Version="2.4.35" />
   </ItemGroup>
 </Project>

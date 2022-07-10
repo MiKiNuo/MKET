@@ -70,7 +70,7 @@
     </ItemGroup>
     
     <ItemGroup>
-      <PackageReference Include="MessagePack" Version="2.4.14-alpha" />
+      <PackageReference Include="MessagePack" Version="2.4.35" />
       <PackageReference Include="protobuf-net" Version="3.1.0" />
     </ItemGroup>
 

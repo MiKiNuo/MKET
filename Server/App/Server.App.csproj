@@ -34,8 +34,4 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="MessagePack" Version="2.4.14-alpha" />
-  </ItemGroup>
 </Project>

@@ -96,9 +96,5 @@
     <ItemGroup>
       <Folder Include="Server" />
     </ItemGroup>
-    
-    <ItemGroup>
-      <PackageReference Include="MessagePack" Version="2.4.14-alpha" />
-    </ItemGroup>
 
 </Project>

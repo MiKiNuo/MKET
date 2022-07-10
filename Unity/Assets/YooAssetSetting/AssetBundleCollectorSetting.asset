@@ -17,8 +17,9 @@ MonoBehaviour:
   ShadersBundleName: myshaders
   Groups:
   - GroupName: DataTables
-    GroupDesc: "\u6570\u636E\u8868"
+    GroupDesc: 
     AssetTags: Cfg
+    ActiveRuleName: EnableGroup
     Collectors:
     - CollectPath: Assets/Res/DataTables
       CollectorType: 0
@@ -27,12 +28,13 @@ MonoBehaviour:
       FilterRuleName: CollectAll
       AssetTags: 
   - GroupName: FGUI
-    GroupDesc: "FGUI\u5305"
+    GroupDesc: 
     AssetTags: FGUI
+    ActiveRuleName: EnableGroup
     Collectors:
-    - CollectPath: Assets/Res/FGUI/UHotfix
+    - CollectPath: Assets/Res/FGUI
       CollectorType: 0
       AddressRuleName: AddressByFileName
-      PackRuleName: PackDirectory
+      PackRuleName: PackSeparately
       FilterRuleName: CollectAll
       AssetTags: 
