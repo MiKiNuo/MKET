@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="fv3hjfnr">
-  <resources>
-    <component id="zkmd2" name="LoadingPanel.xml" path="/" exported="true"/>
-    <component id="ojbw3" name="UpdateProgressBar.xml" path="/"/>
-  </resources>
-  <publish name="" path="E:\Projects\GitProjects\ET\Unity\Assets\Resources\FGUI" packageCount="2" genCode="true" codePath="E:\Projects\GitProjects\ET\Unity\Assets\Mono\FGUIAutoGen"/>
-</packageDescription>

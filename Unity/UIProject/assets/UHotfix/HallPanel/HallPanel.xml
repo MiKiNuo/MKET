@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="1280,720">
-  <displayList>
-    <component id="n0_8zrn" name="EnterBtn" src="8zrnc" fileName="HallPanel/EnterBtn.xml" xy="590,173">
-      <relation target="" sidePair="center-center,middle-middle"/>
-      <Button title="进入地图"/>
-    </component>
-  </displayList>
-</component>
